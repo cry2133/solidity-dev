@@ -1,0 +1,118 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"components": [
+							{
+								"components": [
+									{
+										"internalType": "uint256",
+										"name": "X",
+										"type": "uint256"
+									},
+									{
+										"internalType": "uint256",
+										"name": "Y",
+										"type": "uint256"
+									}
+								],
+								"internalType": "struct Pairing.G1Point",
+								"name": "a",
+								"type": "tuple"
+							},
+							{
+								"components": [
+									{
+										"internalType": "uint256[2]",
+										"name": "X",
+										"type": "uint256[2]"
+									},
+									{
+										"internalType": "uint256[2]",
+										"name": "Y",
+										"type": "uint256[2]"
+									}
+								],
+								"internalType": "struct Pairing.G2Point",
+								"name": "b",
+								"type": "tuple"
+							},
+							{
+								"components": [
+									{
+										"internalType": "uint256",
+										"name": "X",
+										"type": "uint256"
+									},
+									{
+										"internalType": "uint256",
+										"name": "Y",
+										"type": "uint256"
+									}
+								],
+								"internalType": "struct Pairing.G1Point",
+								"name": "c",
+								"type": "tuple"
+							}
+						],
+						"internalType": "struct Verifier.Proof",
+						"name": "proof",
+						"type": "tuple"
+					}
+				],
+				"name": "verifyTx",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "r",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"zkfun/verifier.sol": "Verifier"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"zkfun/verifier.sol": {
+			"keccak256": "0x5efcbda0513e600283784a940c975bde2cd324afe2617642d3291461d42d2ec0",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2a260195d0305bb2b2e7e55475d7f6642a22e525baf378af7b75b6a042738bdd",
+				"dweb:/ipfs/QmUKV2BTwDDbFMURSwvMfZwzVH36KmhvmmJc5btWZz36Ai"
+			]
+		}
+	},
+	"version": 1
+}
