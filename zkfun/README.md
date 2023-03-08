@@ -63,4 +63,4 @@ contract 如图选择，Deploy 之后在下方就能看到交易的信息，展�
 
 
 原文：https://zhuanlan.zhihu.com/p/135800409 Remix +ZoKrates 创建zkSNARK 智能合约
-
+zok : https://zokrates.github.io/examples/sha256example.html
